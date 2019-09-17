@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        You have rolled {{ dice_1 }} and {{ dice_2 }}
+        {% if dice_1 == dice_2%}
+        YOU WIN
+        {% else %}
+        YOU LOSE
+        {% endif %}
+    </body>
+</html>
