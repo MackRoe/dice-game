@@ -4,6 +4,12 @@
         <title></title>
     </head>
     <body>
+        <form>
+            <label for "user_name">Please enter your name: </label>
+            <input type="text" name="user_name"></input>
+            <button type="submit">Submit</button>
+        </form>
+
         You have rolled {{ dice_1 }} and {{ dice_2 }}
         {% if dice_1 == dice_2%}
         YOU WIN
